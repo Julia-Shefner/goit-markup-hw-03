@@ -110,8 +110,6 @@ a {
 .header-nav-links {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-nav-links .nav-link {
@@ -120,6 +118,9 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-weight: 500;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-nav-links .nav-link:hover,
